@@ -1,0 +1,21 @@
+@media only screen {
+    h1 {
+        color: yellowgreen;
+    }
+}
+@media all {
+    h1 {
+        font-size: 50px;
+    }
+}
+/* khi ko có keyword thì đc hiểu là only */
+@media print {
+    h1 {
+        color: yellow;
+    }   
+}
+@media screen and (max-width: 767px) {
+    h1 {
+        color: rebeccapurple;
+    }
+}
