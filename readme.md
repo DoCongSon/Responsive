@@ -21,3 +21,4 @@
 <link rel="stylesheet" media="(min-width: 1024px)" href="./style.css">
 ``` 
 - Polyfill
+- đơn vị nên sử dụng trong media query là em thay vì px hay rem vì ít bị lỗi.
